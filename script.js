@@ -1,7 +1,7 @@
 const CONTRASENA = "EQUIPO";
 
 // 👇 Cuando tengas tu vídeo, sustituye el enlace de abajo
-const VIDEO = "https://www.youtube.com/watch?v=0qdDDFkheVw&list=RD0qdDDFkheVw&start_radio=1";
+const VIDEO = "https://www.youtube.com/embed/0qdDDFkheVw&list=RD0qdDDFkheVw&start_radio=1";
 
 function comprobar(){
 
