@@ -1,1 +1,66 @@
-file:///Users/luci/Downloads/index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La última sorpresa ❤️</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Confeti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<div class="fondo"></div>
+
+<div class="caja">
+
+    <div id="candado">🔒</div>
+
+    <h1>Has llegado al final...</h1>
+
+    <p>
+        Si has reunido todas las letras,<br>
+        ya conoces la contraseña.
+    </p>
+
+    <input
+        id="password"
+        type="password"
+        placeholder="Introduce la contraseña">
+
+    <br>
+
+    <button onclick="comprobar()">
+        Abrir la sorpresa ❤️
+    </button>
+
+    <p id="error"></p>
+
+    <div id="sorpresa">
+
+        <h2>❤️ Feliz cumpleaños, bollito ❤️</h2>
+
+        <p>
+            Si estás viendo esto es porque has descubierto la contraseña...
+            y porque has llegado al final de este verano lleno de regalos.
+        </p>
+
+        <iframe
+            id="video"
+            width="560"
+            height="315"
+            src=""
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
